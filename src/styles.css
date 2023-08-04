@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-white {
+  background-color: white;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+.sidebar {
+  background-color: #000000db;
+  height: 100%;
+}
+li {
+  padding: 5px;
+  transition: 0.3s;
+}
+li:hover,
+li.active {
+  background-color: grey;
+  border-radius: 5px;
+}
